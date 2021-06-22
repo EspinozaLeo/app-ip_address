@@ -65,7 +65,8 @@ function getIpv4MappedIpv6Address(ipv4) {
  * @param {string} cidrStr - The IPv4 subnet expressed
  *                 in CIDR format.
  * @param {callback} callback - A callback function.
- * @return {IP} (myObj) - A JSON object containing ipv4 and ipv6.
+ * @return {IP} (myObj) - A JSON object containing both an ipv4 and its 
+ *                        mapped IPv6 address.
  */
 function getFirstIpAddress(cidrStr, callback) {
 
